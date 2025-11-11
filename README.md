@@ -26,13 +26,13 @@
 直接在终端中执行以下命令，无需下载脚本文件：
 
 ```bash
-curl -s https://raw.githubusercontent.com/0594/cert-dns-auto/main/cert-dns-auto.sh | bash
+bash -c "$(curl -s https://raw.githubusercontent.com/0594/cert-dns-auto/main/cert-dns-auto.sh)"
 ```
 
 或者使用 `wget`：
 
 ```bash
-wget -O - https://raw.githubusercontent.com/0594/cert-dns-auto/main/cert-dns-auto.sh | bash
+wget -O - https://raw.githubusercontent.com/0594/cert-dns-auto/main/cert-dns-auto.sh | bash -s
 ```
 
 ### 传统方式（下载后运行）
