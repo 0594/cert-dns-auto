@@ -18,7 +18,9 @@
 - ✅ **兼容所有 Linux 发行版**（依赖 `bash`, `curl`, `openssl`）
 
 ---
-
+## 📁使用截图
+[![演示](https://github.com/0594/cert-dns-auto/blob/main/example.png)](example.png)
+---
 ## 🚀 快速开始
 
 ### 一键运行（推荐）
