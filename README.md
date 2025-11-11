@@ -32,7 +32,7 @@ bash -c "$(curl -s https://raw.githubusercontent.com/0594/cert-dns-auto/main/cer
 或者使用 `wget`：
 
 ```bash
-wget -O - https://raw.githubusercontent.com/0594/cert-dns-auto/main/cert-dns-auto.sh | bash -s
+bash <(wget -O - https://raw.githubusercontent.com/0594/cert-dns-auto/main/cert-dns-auto.sh)
 ```
 
 ### 传统方式（下载后运行）
